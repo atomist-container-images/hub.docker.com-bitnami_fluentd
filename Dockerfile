@@ -1,12 +1,21 @@
-# Tags: latest, 1.14.6-debian-10-r28, 1.14.6, 1-debian-10, 1
+# Tags: latest, 1.14.6-debian-10-r31, 1.14.6, 1-debian-10, 1
 FROM bitnami/fluentd:latest
-FROM bitnami/fluentd:1.14.6-debian-10-r28
+FROM bitnami/fluentd:1.14.6-debian-10-r31
 FROM bitnami/fluentd:1.14.6
 FROM bitnami/fluentd:1-debian-10
 FROM bitnami/fluentd:1
 
 # Tags: _
 FROM bitnami/fluentd:_
+
+# Tags: 1.14.6-debian-10-r30
+FROM bitnami/fluentd:1.14.6-debian-10-r30
+
+# Tags: 1.14.6-debian-10-r29
+FROM bitnami/fluentd:1.14.6-debian-10-r29
+
+# Tags: 1.14.6-debian-10-r28
+FROM bitnami/fluentd:1.14.6-debian-10-r28
 
 # Tags: 1.14.6-debian-10-r27
 FROM bitnami/fluentd:1.14.6-debian-10-r27
@@ -79,19 +88,3 @@ FROM bitnami/fluentd:1.14.6-debian-10-r4
 
 # Tags: 1.14.6-debian-10-r3
 FROM bitnami/fluentd:1.14.6-debian-10-r3
-
-# Tags: 1.14.6-debian-10-r2
-FROM bitnami/fluentd:1.14.6-debian-10-r2
-
-# Tags: 1.14.6-debian-10-r1
-FROM bitnami/fluentd:1.14.6-debian-10-r1
-
-# Tags: 1.14.6-debian-10-r0
-FROM bitnami/fluentd:1.14.6-debian-10-r0
-
-# Tags: 1.14.5-debian-10-r47, 1.14.5
-FROM bitnami/fluentd:1.14.5-debian-10-r47
-FROM bitnami/fluentd:1.14.5
-
-# Tags: 1.14.5-debian-10-r46
-FROM bitnami/fluentd:1.14.5-debian-10-r46
