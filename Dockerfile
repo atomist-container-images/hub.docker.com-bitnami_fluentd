@@ -1,12 +1,15 @@
-# Tags: latest, 1.14.6-debian-10-r31, 1.14.6, 1-debian-10, 1
+# Tags: latest, 1.14.6-debian-10-r32, 1.14.6, 1-debian-10, 1
 FROM bitnami/fluentd:latest
-FROM bitnami/fluentd:1.14.6-debian-10-r31
+FROM bitnami/fluentd:1.14.6-debian-10-r32
 FROM bitnami/fluentd:1.14.6
 FROM bitnami/fluentd:1-debian-10
 FROM bitnami/fluentd:1
 
 # Tags: _
 FROM bitnami/fluentd:_
+
+# Tags: 1.14.6-debian-10-r31
+FROM bitnami/fluentd:1.14.6-debian-10-r31
 
 # Tags: 1.14.6-debian-10-r30
 FROM bitnami/fluentd:1.14.6-debian-10-r30
