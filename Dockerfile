@@ -1,12 +1,42 @@
-# Tags: latest, 1.14.6-debian-10-r32, 1.14.6, 1-debian-10, 1
+# Tags: latest, 1.14.6-debian-10-r42, 1.14.6, 1-debian-10, 1
 FROM bitnami/fluentd:latest
-FROM bitnami/fluentd:1.14.6-debian-10-r32
+FROM bitnami/fluentd:1.14.6-debian-10-r42
 FROM bitnami/fluentd:1.14.6
 FROM bitnami/fluentd:1-debian-10
 FROM bitnami/fluentd:1
 
 # Tags: _
 FROM bitnami/fluentd:_
+
+# Tags: 1.14.6-debian-10-r41
+FROM bitnami/fluentd:1.14.6-debian-10-r41
+
+# Tags: 1.14.6-debian-10-r40
+FROM bitnami/fluentd:1.14.6-debian-10-r40
+
+# Tags: 1.14.6-debian-10-r39
+FROM bitnami/fluentd:1.14.6-debian-10-r39
+
+# Tags: 1.14.6-debian-10-r38
+FROM bitnami/fluentd:1.14.6-debian-10-r38
+
+# Tags: 1.14.6-debian-10-r37
+FROM bitnami/fluentd:1.14.6-debian-10-r37
+
+# Tags: 1.14.6-debian-10-r36
+FROM bitnami/fluentd:1.14.6-debian-10-r36
+
+# Tags: 1.14.6-debian-10-r35
+FROM bitnami/fluentd:1.14.6-debian-10-r35
+
+# Tags: 1.14.6-debian-10-r34
+FROM bitnami/fluentd:1.14.6-debian-10-r34
+
+# Tags: 1.14.6-debian-10-r33
+FROM bitnami/fluentd:1.14.6-debian-10-r33
+
+# Tags: 1.14.6-debian-10-r32
+FROM bitnami/fluentd:1.14.6-debian-10-r32
 
 # Tags: 1.14.6-debian-10-r31
 FROM bitnami/fluentd:1.14.6-debian-10-r31
@@ -61,33 +91,3 @@ FROM bitnami/fluentd:1.14.6-debian-10-r14
 
 # Tags: 1.14.6-debian-10-r13
 FROM bitnami/fluentd:1.14.6-debian-10-r13
-
-# Tags: 1.14.6-debian-10-r12
-FROM bitnami/fluentd:1.14.6-debian-10-r12
-
-# Tags: 1.14.6-debian-10-r11
-FROM bitnami/fluentd:1.14.6-debian-10-r11
-
-# Tags: 1.14.6-debian-10-r10
-FROM bitnami/fluentd:1.14.6-debian-10-r10
-
-# Tags: 1.14.6-debian-10-r9
-FROM bitnami/fluentd:1.14.6-debian-10-r9
-
-# Tags: 1.14.6-debian-10-r8
-FROM bitnami/fluentd:1.14.6-debian-10-r8
-
-# Tags: 1.14.6-debian-10-r7
-FROM bitnami/fluentd:1.14.6-debian-10-r7
-
-# Tags: 1.14.6-debian-10-r6
-FROM bitnami/fluentd:1.14.6-debian-10-r6
-
-# Tags: 1.14.6-debian-10-r5
-FROM bitnami/fluentd:1.14.6-debian-10-r5
-
-# Tags: 1.14.6-debian-10-r4
-FROM bitnami/fluentd:1.14.6-debian-10-r4
-
-# Tags: 1.14.6-debian-10-r3
-FROM bitnami/fluentd:1.14.6-debian-10-r3
